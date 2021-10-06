@@ -1,21 +1,21 @@
-import Link from 'next/link'
-import styled from 'styled-components'
+import Link from "next/link";
+import styled from "styled-components";
 import { Head } from "next/document";
 
 /** next-link-passhref */
 
 const RedLink = styled.a`
   color: red;
-`
+`;
 function NavLink({ href, name }) {
   // Must add passHref to Link
   return (
     <Link href={href}>
       <RedLink>{name}</RedLink>
     </Link>
-  )
+  );
 }
-export default NavLink
+export default NavLink;
 
 /** next-no-css-tags */
 export class NavBar extends Head {
@@ -29,8 +29,6 @@ export class NavBar extends Head {
   }
 }
 
-
-
 /** no-title-in-document-head */
 export class NavMenu {
   render() {
@@ -41,7 +39,6 @@ export class NavMenu {
     );
   }
 }
-
 
 /** no-unwanted-polyfillio */
 export class NavCard extends Head {
