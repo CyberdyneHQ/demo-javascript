@@ -1,22 +1,29 @@
 {
   "name": "demo-js",
-  "version": "0.0.1",
-  "description": "Repository to demonstrate sample issues in JavaScript raised by DeepSource",
+  "version": "0.1.0",
+  "description": "Repository demonstrating sample JavaScript issues detected by DeepSource",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"No tests configured\" && exit 0",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deepsourcelabs/demo-js.git"
+    "url": "https://github.com/deepsourcelabs/demo-js.git"
   },
   "keywords": [
-    "python",
+    "javascript",
     "static-analysis",
-    "deepsource"
+    "deepsource",
+    "linting"
   ],
   "author": "Moulik Aggarwal",
   "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
   "bugs": {
     "url": "https://github.com/deepsourcelabs/demo-js/issues"
   },
