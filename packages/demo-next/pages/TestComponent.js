@@ -12,7 +12,6 @@ export default Test = () => {
   );
 };
 
-
 /** next-google-font-preconnect */
 export const TestTwo = () => (
   <div>
@@ -20,20 +19,19 @@ export const TestTwo = () => (
   </div>
 );
 
-
 /** no-page-custom-font */
 export function IndexPage() {
-    return (
-        <div>
-            <Head>
-              <link
-                href="https://fonts.googleapis.com/css2?family=Inter"
-                rel="stylesheet"
-              />
-            </Head>
-            <p>Hello world!</p>
-        </div>
-    )
+  return (
+    <div>
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter"
+          rel="stylesheet"
+        />
+      </Head>
+      <p>Hello world!</p>
+    </div>
+  );
 }
 
 /** no-sync-scripts */
@@ -43,6 +41,5 @@ export const Home = () => {
       <script src="https://third-party-script.js"></script>
       <div>Home Page</div>
     </div>
-  )
-}
- 
+  );
+};
