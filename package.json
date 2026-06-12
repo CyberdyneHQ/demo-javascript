@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"No tests configured\" && exit 0",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -17,15 +18,16 @@
     "javascript",
     "static-analysis",
     "deepsource",
-    "linting"
+    "linting",
+    "code-quality"
   ],
   "author": "Moulik Aggarwal",
   "license": "ISC",
   "engines": {
     "node": ">=18"
   },
-  "bugs": {
-    "url": "https://github.com/deepsourcelabs/demo-js/issues"
+  "devDependencies": {
+    "prettier": "^3.3.0"
   },
   "homepage": "https://github.com/deepsourcelabs/demo-js#readme"
 }
