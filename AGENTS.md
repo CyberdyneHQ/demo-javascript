@@ -55,3 +55,5 @@ demonstrate DeepSource analysis, so some "problems" are deliberate.
 <!-- retrigger: endpoint asgard-internal -->
 
 <!-- retrigger: openai key fixed -->
+
+<!-- retrigger: openai key validated 200 -->
