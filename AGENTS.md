@@ -49,3 +49,5 @@ demonstrate DeepSource analysis, so some "problems" are deliberate.
   _(category: style)_
 
 <!-- memory-layer dev test trigger -->
+
+<!-- retrigger: enki memory enabled -->
