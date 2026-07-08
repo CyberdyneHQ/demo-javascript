@@ -51,3 +51,5 @@ demonstrate DeepSource analysis, so some "problems" are deliberate.
 <!-- memory-layer dev test trigger -->
 
 <!-- retrigger: enki memory enabled -->
+
+<!-- retrigger: endpoint asgard-internal -->
