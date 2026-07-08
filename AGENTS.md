@@ -47,3 +47,5 @@ demonstrate DeepSource analysis, so some "problems" are deliberate.
   `require` in new files. _(category: style)_
 - Prefer `const`/`let` over `var`; template literals over string concatenation.
   _(category: style)_
+
+<!-- memory-layer dev test trigger -->
