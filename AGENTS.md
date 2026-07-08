@@ -53,3 +53,5 @@ demonstrate DeepSource analysis, so some "problems" are deliberate.
 <!-- retrigger: enki memory enabled -->
 
 <!-- retrigger: endpoint asgard-internal -->
+
+<!-- retrigger: openai key fixed -->
