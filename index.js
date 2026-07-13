@@ -83,3 +83,12 @@ function isMatched(str){
     const matches = str.match(/hasTheMagic/)[0] ? process(str) : null;
     return matches
 }
+
+function legacyLogger(value){
+    var count = 0;
+    console.log(`legacy value: ${value}`);
+    if(count == value){
+        debugger;
+    }
+    return count
+}
