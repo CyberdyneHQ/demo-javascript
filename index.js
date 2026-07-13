@@ -5,9 +5,12 @@ function isEven(x){
     console.log(`${x} is odd`)
 }
 
+debugger;
+
 function isNumber(num){
     let x = undefined
     x= num % 2
+    debugger;
     if(false)           {
         console.log("Number is false")
     } else if (!!x) {
