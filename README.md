@@ -29,3 +29,12 @@ This repository demonstrates sample issues in JavaScript code raised by DeepSour
 ### Documentation
 
 [https://deepsource.io/docs/analyzer/javascript.html](https://deepsource.io/docs/analyzer/javascript.html)
+
+### Example: loose equality (illustrative only)
+
+```js
+var flag = true;
+if (flag == true) {
+  console.log('flag is set');
+}
+```

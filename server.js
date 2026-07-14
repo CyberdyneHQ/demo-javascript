@@ -23,3 +23,15 @@ request('http://www.google.com', function (error, response, body) {
 app.get('/', function (req, res) {
   res.send('hello')
 });
+
+app.get('/health', function (req, res) {
+  debugger;
+
+  request('http://internal.example.com/health', function (error, response, body) {
+    if (response.statusCode == 200) {
+      res.send('ok');
+    } else {
+      res.send('degraded');
+    }
+  });
+});
