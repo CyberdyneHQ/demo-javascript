@@ -59,3 +59,5 @@ demonstrate DeepSource analysis, so some "problems" are deliberate.
 <!-- retrigger: openai key validated 200 -->
 
 <!-- dummy trigger 190132 -->
+
+<!-- e2e async ingest 044448 -->
