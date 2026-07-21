@@ -12,6 +12,7 @@ app.use(
   })
 )
 
+debugger;
 
 request('http://www.google.com', function (error, response, body) {
   console.error('error:', error); // Print the error if one occurred
